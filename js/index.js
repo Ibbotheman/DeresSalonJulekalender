@@ -22,7 +22,7 @@ target.each(function(){
 $('.day').click(function(){
   if ($(this).hasClass('future')){
     $('#modal').addClass('active');
-    $('#modal .wrapper .content .box').html("<h2>Naughty, naughty.</h2> <p>You can't look early! Check back on that day to see what I've left for you.</p>");
+    $('#modal .wrapper .content .box').html("<h2>Hov hov</h2> <p>Man må ikke åbne før tid</p>");
   }
   if ($(this).hasClass('past')){
     var content = $(this).children('.surprise').html();
